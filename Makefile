@@ -15,8 +15,8 @@ run:
 	@java -jar twixt.jar	
 
 t1j:
-	wget http://www.johannes-schwagereit.de/twixt/T1j/t1j.jar
-	java -jar t1j.jar
+	@wget http://www.johannes-schwagereit.de/twixt/T1j/t1j.jar
+	@java -jar t1j.jar
 
 clean: 
 	@rm -f *.class *~ *.log *.aux *.pdf *.jar *.MF
