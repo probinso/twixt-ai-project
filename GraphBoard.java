@@ -17,4 +17,7 @@ public class GraphBoard extends GameBoard
       + Shortest Valid Path from Point to Point
       
      */
+    public GraphBoard(int size){	
+	super(size);
+    }
 }
