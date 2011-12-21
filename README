@@ -1,1 +1,3 @@
 My proposed method for generating an AI agent for twixt is to produce valid peg placements several layers deep. The hope is that it will easy to identify arbitrary progress rather than evaluating full board states. Given a large set of points, we hope to find the ones with the largest number of possible patterns. If this is done with non-deterministic depth and perhaps alternating sides then it may behave as a positive AI. This should emulate a positive pattern matching AI.
+
+ss
