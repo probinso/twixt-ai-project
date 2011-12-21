@@ -3,7 +3,6 @@ import java.awt.*;
 
 public class Peg
 {
-    
     public enum Status {Red, Blue, Zero};
 
     private Status Color;
