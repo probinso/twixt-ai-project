@@ -15,7 +15,7 @@ public class TerritoryBoard extends GameBoard
 
     public int weights[][];
 
-    public GraphBoard(int size){	
+    public TerritoryBoard(int size){	
 	super(size);
 	this.weights = new int[size][size];
 	for (int i = 0; i < size; i++)
