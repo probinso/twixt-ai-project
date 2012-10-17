@@ -170,10 +170,23 @@ public class GameBoard
 		this.Pegs[Q.x][Q.y].addFence(P);
 		this.Pegs[P.x][P.y].addFence(Q);
 	    }
+	    /*update turn*/
 	    this.Turn=(this.Turn==Peg.Status.Red)?Peg.Status.Blue:Peg.Status.Red;
 	    return true;
 	}
 	return false;
     }
+
+    public boolean updateTurn(Point P){
+	/*returns true if turn is updated, returns false if game over
+	  
+	  Use point (0,0) for forced turn reset
+	 */
+	/*unfinished ... may need to switch GraphBoard and GameBoard ... explore this option*/
+	this.Turn=(this.Turn==Peg.Status.Red)?Peg.Status.Blue:Peg.Status.Red;
+	return true;
+    }
+    
+    
     
 }

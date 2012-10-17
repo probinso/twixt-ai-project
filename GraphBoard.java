@@ -20,4 +20,6 @@ public class GraphBoard extends GameBoard
     public GraphBoard(int size){	
 	super(size);
     }
+
+    
 }
